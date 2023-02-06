@@ -35,7 +35,8 @@ Andy Lo-A-Foe
 - Create Multipass VM for Docker
 - Create Multipass VM for Kubernetes 
 - Install Terraform in Docker VM
-- A GitHub Account
+- GitHub Account
+- HSP CloudFoundry Account 
 
 ---
 ![bg](./images/bg.webp)
