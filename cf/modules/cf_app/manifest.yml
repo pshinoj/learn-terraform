@@ -1,0 +1,20 @@
+---
+applications:
+  - name: ms1demo
+    path: ./target/microservice1-1.0.0.jar
+    instances: 2
+    memory: 1G
+    routes:
+      - route: ms1demo.cloud.pcftest.com
+    buildpacks:
+      - https://github.com/cloudfoundry/java-buildpack
+    stack: cflinuxfs3
+    env:
+      SPRING_PROFILES_ACTIVE: cloud
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+}}'
+    services:
+      - vaultdemo
+      - psqldemo
+      - hsplogdemo
+
+

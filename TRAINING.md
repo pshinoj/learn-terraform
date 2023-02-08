@@ -127,4 +127,12 @@ In this lab, you will learn:
 # Lab 3: Deployment Steps
 ![w:900 h:500](./images/cf02.svg)
 
-
+---
+![bg](./images/bg.webp)
+<!-- _class: lead-->
+# References
+[Terraform Tutorials](https://developer.hashicorp.com/terraform/tutorials)
+[Docker Tutorials](https://www.docker.com/101-tutorial/)
+[CloudFoundry Tutorials](https://web.microsoftstream.com/video/2ff6edb0-0bee-480d-ba49-4df7c94c3d8d)
+[Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/)
+[AWS EKS Tutorials](https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html)
