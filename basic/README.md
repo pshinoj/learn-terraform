@@ -1,6 +1,6 @@
 # Instructions
 ## 1. Create a local file with Hello World! text
-```json
+```terraform
 resource "local_file" "my_file" {
   filename        = "my_file.txt"
   content         = "Hello World!"
@@ -8,14 +8,14 @@ resource "local_file" "my_file" {
 }
 ```
 ## 2. Make changes in resource and see how plan works!
-```json
+```terraform
 resource "local_file" "my_file" {
   filename        = "my_file.txt"
   content         = "Hello World! Terraform!"
   file_permission = "0765"
 }
 ```
-```json
+```terraform
 resource "local_file" "my_file" {
   filename        = "my_file.txt"
   content         = "Hello World! Terraform!"
@@ -24,7 +24,7 @@ resource "local_file" "my_file" {
 ```
 ## 3. Using provider
 
-```json
+```terraform
 terraform {
   required_providers {
     random = {
@@ -54,7 +54,7 @@ resource "local_file" "my_file" {
 - Run `tf init` and then plan to avoid error
 
 ## 4. Define variables
-```json
+```terraform
 variable "file_name" {
   description = "Name of file"
   type        = string
@@ -84,7 +84,7 @@ Option3: As environment variables
 `export TF_VAR_file_name=myfile.txt`
 
 ## 5. Use local
-```json
+```terraform
 locals {
     prefix = "dev"
 }
@@ -96,7 +96,7 @@ resource "local_file" "my_file" {
 ```
 
 ## 6. How do you create same resource multiple times?
-```json
+```terraform
 resource "random_string" "random" {
   count            = 3
 
@@ -114,8 +114,9 @@ resource "random_string" "random" {
 - Create 3 files with each file having one random string as content
 - Name the file as dev-my_file-1.txt, where `1` is the index of count
 - Create each random string with different lengths [5, 8, 16]
+
 *Hint: Define a variable for lengths and use it in other resources*
-```json
+```terraform
 variable "lengths" {
   description = "Create random with varied lengths"
   type        = list(number)
