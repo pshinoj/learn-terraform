@@ -17,3 +17,17 @@ provider "cloudfoundry" {
   skip_ssl_validation = true
   app_logs_max        = 30
 }
+
+data "cloudfoundry_org" "my_org" {
+  name = var.cf_org
+}
+
+data "cloudfoundry_space" "my_space" {
+  name = var.cf_space
+  org  = data.cloudfoundry_org.my_org.id
+}
+
+data "cloudfoundry_service" "vault" {
+  name = var.vault_service
+}
+

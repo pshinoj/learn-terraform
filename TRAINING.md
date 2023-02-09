@@ -140,6 +140,12 @@ In this lab, you will learn:
 ---
 ![bg](./images/bg.webp)
 <!-- _class: lead-->
+# Lab 4: Build HSP Org Model
+- ![w:900 h:500](./images/hsp.png)
+
+---
+![bg](./images/bg.webp)
+<!-- _class: lead-->
 # References
 [HSP Terraform Techtalk](https://web.microsoftstream.com/video/2a5779a3-d8c9-4d90-8c4b-cbbe0d68b670)
 [Terraform Tutorials](https://developer.hashicorp.com/terraform/tutorials)
