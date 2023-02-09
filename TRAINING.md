@@ -70,8 +70,12 @@ An infrastructure as code (IaC) tool that lets you build, change, and version cl
 <!-- _class: lead-->
 # Why Terraform?
 
-- Explain why is it important to HSP
-- HSP Terraform Provider
+- Supports multi-cloud & hybrid infrastructure
+- Migrate from other cloud providers
+- Increase provisioning speed
+- Improve efficiency
+- Reduce risk
+- Cover related to HSP AWS activities
 
 ---
 ![bg](./images/bg.webp)
@@ -131,6 +135,7 @@ In this lab, you will learn:
 ![bg](./images/bg.webp)
 <!-- _class: lead-->
 # References
+[HSP Terraform Techtalk](https://web.microsoftstream.com/video/2a5779a3-d8c9-4d90-8c4b-cbbe0d68b670)
 [Terraform Tutorials](https://developer.hashicorp.com/terraform/tutorials)
 [Docker Tutorials](https://www.docker.com/101-tutorial/)
 [CloudFoundry Tutorials](https://web.microsoftstream.com/video/2ff6edb0-0bee-480d-ba49-4df7c94c3d8d)
