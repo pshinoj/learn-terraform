@@ -112,7 +112,7 @@ resource "random_string" "random" {
 
 ## 7. Exercise:
 - Create 3 files with each file having one random string as content
-- Name the file as dev-my_file-1.txt, where `1` is the index of count
+- Name the file as dev-my_file-`n`.txt, where `n` is the index of count
 - Create each random string with different lengths [5, 8, 16]
 
 *Hint: Define a variable for lengths and use it in other resources*
