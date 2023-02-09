@@ -86,6 +86,12 @@ An infrastructure as code (IaC) tool that lets you build, change, and version cl
 ---
 ![bg](./images/bg.webp)
 <!-- _class: lead-->
+# Terraform HSP Provider
+- ![w:700 h:400](./images/tf03.png)
+
+---
+![bg](./images/bg.webp)
+<!-- _class: lead-->
 # Lab 1: Fundamentals
 In this lab, you will learn how to:
 - Write your first script
