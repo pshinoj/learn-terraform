@@ -20,3 +20,10 @@ provider "vault" {
     }
   }
 }
+
+resource "vault_generic_secret" "data" {
+  path = var.hsp_vault_secret_path
+
+  data_json = var.hsp_vault_data_json
+}
+

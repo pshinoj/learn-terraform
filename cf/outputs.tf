@@ -18,6 +18,6 @@ output "my_vault_credentials" {
   value = cloudfoundry_service_key.myvault_key.credentials
 }
 
-output "my_app_details" {
-  value = module.cf_app.myapp_details
-}
+#output "my_app_details" {
+#  value = module.cf_app.myapp_details
+#}
