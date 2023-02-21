@@ -1,0 +1,6 @@
+pg_admin_pwd      = "<some_password>"
+pg_repl_admin_pwd = "<some_password>"
+registry_username = ""
+registry_password = ""
+registry_email    = ""
+registry_server   = ""

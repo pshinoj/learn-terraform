@@ -1,0 +1,6 @@
+cf_org           = "<your-org>"
+cf_space         = "<your-space>"
+cf_user_username = "<username>"
+cf_user_password = "<password>"
+cf_client_id     = "<client_id>"
+cf_client_secret = "<client_pass>"
