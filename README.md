@@ -2,7 +2,12 @@
 Training project for teaching terraform
 
 # Terraform: From Zero to Hero
-This training session is going to give you an overview about Terraform features and how you can build your Infrastructure as Code. 
+This training session is going to give you an overview about Terraform features and how you can build your Infrastructure as Code. The project is going to cover samples for the following targets:
+- Understanding basic functionalities of Terraform
+- How to create a docker image and run as a container?
+- How to deploy your application in Cloud Foundry?
+- How to use terraform HSP provider to create IAM resources?
+- How to deploy your application in Kubernetes cloud native environment?
 
 # Prerequisites
 If you want to try out along with me during training, please make sure you install the following tools before the session:
